@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+.banner {
+  background: red;
+  background-image: url(https://cdn.paris.fr/paris/2019/07/31/huge-10fb21fbf05c8699e7c2cb607732fb83.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  text-align: center;
+  padding: 165px;
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

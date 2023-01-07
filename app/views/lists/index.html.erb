@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="banner">
+    <h1>Lists</h1>
+  </div>
+
+  <% @lists.each do |list| %>
+  <ul>
+    <li>
+      <%= link_to list.name %>
+    </li>
+  </ul>
+  <% end %>
+
+  <%= link_to "Create new list", new_list_path %>
+</div>
